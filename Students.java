@@ -24,7 +24,6 @@ abstract class Student {
     public abstract void writeExam();
 }
 
-// Класс-наследник IUStudent
 class IUStudent extends Student {
     public IUStudent(String fullName, int course, double examScore) {
         super(fullName, course, examScore);
@@ -36,7 +35,6 @@ class IUStudent extends Student {
     }
 }
 
-// Класс-наследник MathStudent
 class MathStudent extends Student {
     public MathStudent(String fullName, int course, double examScore) {
         super(fullName, course, examScore);
